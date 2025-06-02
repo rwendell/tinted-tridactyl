@@ -1,3 +1,5 @@
+# tinted-tridactyl
+
 use your base16 [tinted-theme](https://github.com/tinted-theming/home) theme with [tridactyl](https://github.com/tridactyl/tridactyl) 
 # Basic Usage Instructions
 
@@ -5,7 +7,7 @@ Add the following toml settings to your Tinty ~/.config/tinted-theming/tinty/con
 ```toml
 [[items]]
 name = "tridactyl"
-path = "https://github.com/rwendell/tinted-tridactyl"
+path = "https://github.com/tinted-theming/tinted-tridactyl"
 themes-dir = "themes"
 hook = "command cp -f %f ~/.config/tridactyl/themes/colors.css"
 supported-systems = ["base16"]
